@@ -1,0 +1,6 @@
+framework module APECountdownView {
+  umbrella header "APECountdownView-umbrella.h"
+
+  export *
+  module * { export * }
+}

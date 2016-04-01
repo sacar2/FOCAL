@@ -1,0 +1,20 @@
+PODS:
+  - APECountdownView (0.1.2):
+    - RxCocoa (~> 2.2)
+    - RxSwift (~> 2.2)
+  - JWAnimatedImage (0.1.3)
+  - RxCocoa (2.2.0):
+    - RxSwift (~> 2.2)
+  - RxSwift (2.2.0)
+
+DEPENDENCIES:
+  - APECountdownView (~> 0.1)
+  - JWAnimatedImage
+
+SPEC CHECKSUMS:
+  APECountdownView: e3f6a2b035a2b48c7acbe03d3f43ceb129c5b44e
+  JWAnimatedImage: edf78d0d665c45a99d56070a3ee8ed552908462a
+  RxCocoa: 42efb7a7145a8d1d5878e94ce48a580d29e0c796
+  RxSwift: b8a749f2204c6c7a5c29b306a9c3bc11d5b87c5b
+
+COCOAPODS: 0.39.0

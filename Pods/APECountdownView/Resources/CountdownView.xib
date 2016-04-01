@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CountdownView" customModule="APECountdownView" customModuleProvider="target">
+            <connections>
+                <outlet property="countdownNumberViewDay1" destination="hp3-rf-m2G" id="ebL-7a-Nvw"/>
+                <outlet property="countdownNumberViewDay2" destination="Ncs-M5-a2m" id="pRB-WJ-bfA"/>
+                <outlet property="countdownNumberViewHour1" destination="7pP-uH-Ouf" id="wo7-R2-0oT"/>
+                <outlet property="countdownNumberViewHour2" destination="IVI-kS-Pig" id="7GI-Ff-Fbx"/>
+                <outlet property="countdownNumberViewMin1" destination="tmx-bJ-nIZ" id="9yz-X1-OtC"/>
+                <outlet property="countdownNumberViewMin2" destination="nRN-1Y-oW1" id="aLq-LX-d6T"/>
+                <outlet property="countdownNumberViewSec1" destination="ozc-ln-Ji0" id="mRo-sc-qrX"/>
+                <outlet property="countdownNumberViewSec2" destination="FCw-ft-SbB" id="r8c-2z-TBk"/>
+                <outletCollection property="countdownTitleLabels" destination="D7R-IH-Uj5" collectionClass="NSMutableArray" id="zn9-R4-jN8"/>
+                <outletCollection property="countdownTitleLabels" destination="uEm-mb-zGG" collectionClass="NSMutableArray" id="sBx-Dc-1py"/>
+                <outletCollection property="countdownTitleLabels" destination="8rj-65-koG" collectionClass="NSMutableArray" id="3eb-PB-tQy"/>
+                <outletCollection property="countdownTitleLabels" destination="COz-X4-fMH" collectionClass="NSMutableArray" id="tix-eT-jmg"/>
+                <outletCollection property="countdownNumberViews" destination="hp3-rf-m2G" collectionClass="NSMutableArray" id="5HS-yw-Bt3"/>
+                <outletCollection property="countdownNumberViews" destination="Ncs-M5-a2m" collectionClass="NSMutableArray" id="VUG-9K-rnO"/>
+                <outletCollection property="countdownNumberViews" destination="7pP-uH-Ouf" collectionClass="NSMutableArray" id="rbo-bg-pkV"/>
+                <outletCollection property="countdownNumberViews" destination="IVI-kS-Pig" collectionClass="NSMutableArray" id="Q9i-z7-0LD"/>
+                <outletCollection property="countdownNumberViews" destination="tmx-bJ-nIZ" collectionClass="NSMutableArray" id="0J7-Kh-1aD"/>
+                <outletCollection property="countdownNumberViews" destination="nRN-1Y-oW1" collectionClass="NSMutableArray" id="8Gr-Kj-HH6"/>
+                <outletCollection property="countdownNumberViews" destination="ozc-ln-Ji0" collectionClass="NSMutableArray" id="jsi-3C-B5C"/>
+                <outletCollection property="countdownNumberViews" destination="FCw-ft-SbB" collectionClass="NSMutableArray" id="Qvu-JM-UQU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ncs-M5-a2m" customClass="CountdownNumberView" customModule="APECountdownView" customModuleProvider="target">
+                    <rect key="frame" x="329" y="142" width="70" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="JGP-Yn-wYn"/>
+                        <constraint firstAttribute="width" constant="70" id="QXA-Cp-vCt"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tmx-bJ-nIZ" customClass="CountdownNumberView" customModule="APECountdownView" customModuleProvider="target">
+                    <rect key="frame" x="302" y="280" width="30" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="1XV-Nt-cbc"/>
+                        <constraint firstAttribute="height" constant="70" id="PqE-id-OEn"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nRN-1Y-oW1" customClass="CountdownNumberView" customModule="APECountdownView" customModuleProvider="target">
+                    <rect key="frame" x="329" y="280" width="30" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="I8j-Bh-KT1"/>
+                        <constraint firstAttribute="width" constant="50" id="faX-gh-CCU"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ozc-ln-Ji0" customClass="CountdownNumberView" customModule="APECountdownView" customModuleProvider="target">
+                    <rect key="frame" x="362" y="280" width="30" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="4xv-0Y-dXM"/>
+                        <constraint firstAttribute="height" constant="70" id="kdb-Pp-wfW"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FCw-ft-SbB" customClass="CountdownNumberView" customModule="APECountdownView" customModuleProvider="target">
+                    <rect key="frame" x="389" y="280" width="30" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="HDy-tH-kLA"/>
+                        <constraint firstAttribute="height" constant="70" id="yoy-Kw-2bN"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DKu-Pa-Fog" userLabel="Center View">
+                    <rect key="frame" x="300" y="300" width="0.0" height="1"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <accessibility key="accessibilityConfiguration" label="´"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="DAYS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7R-IH-Uj5">
+                    <rect key="frame" x="302" y="250" width="57" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="H" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uEm-mb-zGG">
+                    <rect key="frame" x="182" y="338" width="57" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="M" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rj-65-koG">
+                    <rect key="frame" x="289" y="338" width="57" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COz-X4-fMH">
+                    <rect key="frame" x="362" y="338" width="57" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7pP-uH-Ouf" customClass="CountdownNumberView" customModule="APECountdownView" customModuleProvider="target">
+                    <rect key="frame" x="160" y="250" width="50" height="70"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="9iE-yc-TkP"/>
+                        <constraint firstAttribute="height" constant="70" id="v07-N7-XJ0"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IVI-kS-Pig" customClass="CountdownNumberView" customModule="APECountdownView" customModuleProvider="target">
+                    <rect key="frame" x="218" y="250" width="50" height="70"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="BFv-F2-0D9"/>
+                        <constraint firstAttribute="height" constant="70" id="MSb-WW-P7L"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hp3-rf-m2G" customClass="CountdownNumberView" customModule="APECountdownView" customModuleProvider="target">
+                    <rect key="frame" x="242" y="122" width="90" height="120"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="N6R-MD-22D"/>
+                        <constraint firstAttribute="width" constant="70" id="l3l-NM-i54"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ncs-M5-a2m" firstAttribute="leading" secondItem="hp3-rf-m2G" secondAttribute="trailing" id="0Ar-yc-pSo"/>
+                <constraint firstItem="Ncs-M5-a2m" firstAttribute="centerY" secondItem="hp3-rf-m2G" secondAttribute="centerY" id="4Kb-HQ-ar9"/>
+                <constraint firstItem="D7R-IH-Uj5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerXWithinMargins" id="7Bk-Ir-HR8"/>
+                <constraint firstItem="FCw-ft-SbB" firstAttribute="leading" secondItem="ozc-ln-Ji0" secondAttribute="trailing" constant="-2" id="9A7-gu-L5F"/>
+                <constraint firstItem="8rj-65-koG" firstAttribute="bottom" secondItem="tmx-bJ-nIZ" secondAttribute="bottom" constant="25" id="9ch-mr-sm0"/>
+                <constraint firstItem="D7R-IH-Uj5" firstAttribute="baseline" secondItem="iN0-l3-epB" secondAttribute="centerY" id="CZw-KG-A7J"/>
+                <constraint firstItem="nRN-1Y-oW1" firstAttribute="leading" secondItem="tmx-bJ-nIZ" secondAttribute="trailing" constant="-2" id="D53-Rx-3kT"/>
+                <constraint firstAttribute="trailing" secondItem="FCw-ft-SbB" secondAttribute="leading" constant="60" id="Drf-kN-aBc"/>
+                <constraint firstItem="8rj-65-koG" firstAttribute="centerY" secondItem="uEm-mb-zGG" secondAttribute="centerY" id="Ejr-Ul-gzj"/>
+                <constraint firstItem="8rj-65-koG" firstAttribute="top" secondItem="D7R-IH-Uj5" secondAttribute="top" constant="150" id="F3c-c2-9Km"/>
+                <constraint firstItem="FCw-ft-SbB" firstAttribute="bottom" secondItem="ozc-ln-Ji0" secondAttribute="bottom" id="F75-bs-xYL"/>
+                <constraint firstItem="uEm-mb-zGG" firstAttribute="leading" secondItem="IVI-kS-Pig" secondAttribute="leading" id="Fm7-9a-Dpl"/>
+                <constraint firstItem="8rj-65-koG" firstAttribute="leading" secondItem="nRN-1Y-oW1" secondAttribute="leading" id="GpG-ic-qcB"/>
+                <constraint firstItem="uEm-mb-zGG" firstAttribute="trailing" secondItem="7pP-uH-Ouf" secondAttribute="trailing" id="II5-eh-7r1"/>
+                <constraint firstItem="ozc-ln-Ji0" firstAttribute="leading" secondItem="nRN-1Y-oW1" secondAttribute="trailing" constant="3" id="KOO-1Q-EPy"/>
+                <constraint firstItem="D7R-IH-Uj5" firstAttribute="bottom" secondItem="hp3-rf-m2G" secondAttribute="bottom" constant="20" id="LHx-m1-fU8"/>
+                <constraint firstItem="COz-X4-fMH" firstAttribute="leading" secondItem="FCw-ft-SbB" secondAttribute="leading" id="MGb-K2-SUe"/>
+                <constraint firstItem="COz-X4-fMH" firstAttribute="centerY" secondItem="8rj-65-koG" secondAttribute="centerY" id="PT2-s2-QwO"/>
+                <constraint firstItem="8rj-65-koG" firstAttribute="trailing" secondItem="tmx-bJ-nIZ" secondAttribute="trailing" id="QWC-a1-ZAz"/>
+                <constraint firstItem="8rj-65-koG" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SWz-Mx-gs3"/>
+                <constraint firstItem="D7R-IH-Uj5" firstAttribute="trailing" secondItem="hp3-rf-m2G" secondAttribute="trailing" id="W91-b3-KlD"/>
+                <constraint firstItem="tmx-bJ-nIZ" firstAttribute="leading" secondItem="IVI-kS-Pig" secondAttribute="trailing" constant="3" id="XnC-EP-SCi"/>
+                <constraint firstItem="D7R-IH-Uj5" firstAttribute="leading" secondItem="Ncs-M5-a2m" secondAttribute="leading" id="d6R-Py-nh8"/>
+                <constraint firstItem="ozc-ln-Ji0" firstAttribute="bottom" secondItem="tmx-bJ-nIZ" secondAttribute="bottom" id="eY9-sw-MB7"/>
+                <constraint firstItem="uEm-mb-zGG" firstAttribute="bottom" secondItem="7pP-uH-Ouf" secondAttribute="bottom" constant="25" id="fni-cn-yhg"/>
+                <constraint firstItem="nRN-1Y-oW1" firstAttribute="bottom" secondItem="tmx-bJ-nIZ" secondAttribute="bottom" id="gJW-eE-r4x"/>
+                <constraint firstItem="IVI-kS-Pig" firstAttribute="bottom" secondItem="7pP-uH-Ouf" secondAttribute="bottom" id="kzP-eK-TVS"/>
+                <constraint firstItem="COz-X4-fMH" firstAttribute="trailing" secondItem="ozc-ln-Ji0" secondAttribute="trailing" id="lkJ-jb-8s3"/>
+                <constraint firstItem="COz-X4-fMH" firstAttribute="leading" secondItem="8rj-65-koG" secondAttribute="trailing" constant="90" id="se5-rW-WYc"/>
+                <constraint firstItem="8rj-65-koG" firstAttribute="leading" secondItem="uEm-mb-zGG" secondAttribute="trailing" constant="90" id="xVb-Hm-SK1"/>
+                <constraint firstItem="IVI-kS-Pig" firstAttribute="leading" secondItem="7pP-uH-Ouf" secondAttribute="trailing" constant="-2" id="xp0-bX-724"/>
+                <constraint firstItem="uEm-mb-zGG" firstAttribute="trailing" secondItem="7pP-uH-Ouf" secondAttribute="trailing" constant="30" id="y5k-77-b1X"/>
+                <constraint firstItem="D7R-IH-Uj5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ydd-04-WsL"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="xp0-bX-724"/>
+                    <exclude reference="0Ar-yc-pSo"/>
+                    <exclude reference="y5k-77-b1X"/>
+                    <exclude reference="7Bk-Ir-HR8"/>
+                    <exclude reference="D53-Rx-3kT"/>
+                    <exclude reference="xVb-Hm-SK1"/>
+                    <exclude reference="9A7-gu-L5F"/>
+                    <exclude reference="Drf-kN-aBc"/>
+                    <exclude reference="se5-rW-WYc"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>
