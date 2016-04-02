@@ -58,16 +58,25 @@ class DesignersViewController: UIViewController {
     
     func fillMWText(){
         // Define string attributes
-        let font1 = UIFont(name: "AvenirNext-Bold", size: 14.0) ?? UIFont.systemFontOfSize(14.0)
+        let font1 = UIFont(name: "HelveticaNeue-CondensedBold", size: 16.0) ?? UIFont.systemFontOfSize(14.0)
         let boldFont = [NSFontAttributeName:font1]
         
-        let font2 = UIFont(name: "AvenirNext-Regular", size: 13.0) ?? UIFont.systemFontOfSize(13.0)
+        let font2 = UIFont(name: "HelveticaNeue-UltraLight", size: 14.0) ?? UIFont.systemFontOfSize(13.0)
         let regFont = [NSFontAttributeName:font2]
+        
+        let font3 = UIFont(name: "HelveticaNeue-CondensedBold", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let nameFont = [NSFontAttributeName:font3]
+        
+        let font4 = UIFont(name: "HelveticaNeue-UltraLight", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let desFont = [NSFontAttributeName:font4]
         
         // Create a string that will be our paragraph
         let para = NSMutableAttributedString()
         
         // Create locally formatted strings
+        let Designer = NSAttributedString(string: "DESIGNER\n", attributes:nameFont)
+        let Name = NSAttributedString(string: "Monah Water\n\n", attributes:desFont)
+
         let Q1 = NSAttributedString(string: "Tell me about your brand.\n", attributes:boldFont)
         let A1 = NSAttributedString(string: "I'm a new designer, I just started showing last year. I'm also a multi-disciplinary artist and writer.\n\n", attributes:regFont)
         
@@ -109,6 +118,8 @@ class DesignersViewController: UIViewController {
         
         
         // Add locally formatted strings to paragraph
+        para.appendAttributedString(Designer)
+        para.appendAttributedString(Name)
         para.appendAttributedString(Q1)
         para.appendAttributedString(A1)
         para.appendAttributedString(Q2)
@@ -142,16 +153,25 @@ class DesignersViewController: UIViewController {
     
     func fillAMText(){
         // Define string attributes
-        let font1 = UIFont(name: "AvenirNext-Bold", size: 14.0) ?? UIFont.systemFontOfSize(14.0)
+        let font1 = UIFont(name: "HelveticaNeue-UltraLight", size: 16.0) ?? UIFont.systemFontOfSize(14.0)
         let boldFont = [NSFontAttributeName:font1]
         
-        let font2 = UIFont(name: "AvenirNext-Regular", size: 13.0) ?? UIFont.systemFontOfSize(13.0)
+        let font2 = UIFont(name: "HelveticaNeue-UltraLight", size: 14.0) ?? UIFont.systemFontOfSize(13.0)
         let regFont = [NSFontAttributeName:font2]
+        
+        let font3 = UIFont(name: "HelveticaNeue-CondensedBold", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let nameFont = [NSFontAttributeName:font3]
+        
+        let font4 = UIFont(name: "HelveticaNeue-UltraLight", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let desFont = [NSFontAttributeName:font4]
         
         // Create a string that will be our paragraph
         let para = NSMutableAttributedString()
         
         // Create locally formatted strings
+        let Designer = NSAttributedString(string: "DESIGNERS\n", attributes:nameFont)
+        let Name = NSAttributedString(string: "Lesley Kuk, Willis Chan, Jeesoo Kim, Ella Park, & Dimitar Dangov\n\n", attributes:desFont)
+        
         let Q1 = NSAttributedString(string: "What inspired you to create this collection?\n", attributes:boldFont)
         let A1 = NSAttributedString(string: "I think we all had a vision that was in line with each others, to an extent, so it was pretty easy for us to come up with a collection that really worked well together. I think we all had a clear idea of, when we started, what we wanted to accomplish and what our goal was for this theme [in this waking moment]. It was what inspired me to go even further with this collection. I felt it was strong and broad and that it included all five of our aesthetics. It allowed us to collaborate but still keep that one design idea in mind.\n\n", attributes:regFont)
         
@@ -176,6 +196,8 @@ class DesignersViewController: UIViewController {
         let Q8 = NSAttributedString(string: "What do you love most about design?\n", attributes:boldFont)
         let A8 = NSAttributedString(string: "Being able to overcome each stepping stone. When you think ‘Oh, i want to design this’ but you don't really know how; then, you finally figure out how to actually design it, and it works. it's a great feeling of success, overcoming challenges. (Dimitar Dangov) For me, it was such a personal experience to design garments. At this stage in the game we're creating by hand, and you're putting so much conceptual development into it, and then you're giving it to a person to wear on their body. In design what is often forgotten is that the act of putting on garments is so personal to us. That's kind of where Ante Meridiem went in, was with the whole idea of this waking moment; putting on garments in the morning is such a ritualistic thing.\n\n", attributes:regFont)
         // Add locally formatted strings to paragraph
+        para.appendAttributedString(Designer)
+        para.appendAttributedString(Name)
         para.appendAttributedString(Q1)
         para.appendAttributedString(A1)
         para.appendAttributedString(Q2)
@@ -199,16 +221,25 @@ class DesignersViewController: UIViewController {
     
     func fillPCText(){
         // Define string attributes
-        let font1 = UIFont(name: "AvenirNext-Bold", size: 14.0) ?? UIFont.systemFontOfSize(14.0)
+        let font1 = UIFont(name: "HelveticaNeue-CondensedBold", size: 16.0) ?? UIFont.systemFontOfSize(14.0)
         let boldFont = [NSFontAttributeName:font1]
         
-        let font2 = UIFont(name: "AvenirNext-Regular", size: 13.0) ?? UIFont.systemFontOfSize(13.0)
+        let font2 = UIFont(name: "HelveticaNeue-UltraLight", size: 14.0) ?? UIFont.systemFontOfSize(13.0)
         let regFont = [NSFontAttributeName:font2]
+        
+        let font3 = UIFont(name: "HelveticaNeue-CondensedBold", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let nameFont = [NSFontAttributeName:font3]
+        
+        let font4 = UIFont(name: "HelveticaNeue-UltraLight", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let desFont = [NSFontAttributeName:font4]
         
         // Create a string that will be our paragraph
         let para = NSMutableAttributedString()
         
         // Create locally formatted strings
+        let Designer = NSAttributedString(string: "DESIGNERS\n", attributes:nameFont)
+        let Name = NSAttributedString(string: "Paul Garcia & Adrian Moyo\n\n", attributes:desFont)
+        
         let Q1 = NSAttributedString(string: "Tell me about your brand.\n", attributes:boldFont)
         let A1 = NSAttributedString(string: "The brand is something that started two years ago, and we just started production within the last 6-8 months. Basically, we're just putting subtle changes on everyday clothes we have now- polos, tees, dresses- and we're trying to keep it simple.\n\n", attributes:regFont)
         
@@ -246,6 +277,8 @@ class DesignersViewController: UIViewController {
         let A12 = NSAttributedString(string: "Just keep pushing. The idea you have, you may think it's the worst idea. Sometimes people will look at it and think that's actually an amazing idea. Never throw away an idea. Always keep it in the stash; you never know when you can pull it out and re-use it and revamp it. Always keep pushing, stay focused, and if it's really what you want to do, let nothing distract you from it.\n\n", attributes:regFont)
         
         // Add locally formatted strings to paragraph
+        para.appendAttributedString(Designer)
+        para.appendAttributedString(Name)
         para.appendAttributedString(Q1)
         para.appendAttributedString(A1)
         para.appendAttributedString(Q2)
@@ -277,16 +310,25 @@ class DesignersViewController: UIViewController {
     
     func fillQText(){
         // Define string attributes
-        let font1 = UIFont(name: "AvenirNext-Bold", size: 14.0) ?? UIFont.systemFontOfSize(14.0)
+        let font1 = UIFont(name: "HelveticaNeue-CondensedBold", size: 16.0) ?? UIFont.systemFontOfSize(14.0)
         let boldFont = [NSFontAttributeName:font1]
         
-        let font2 = UIFont(name: "AvenirNext-Regular", size: 13.0) ?? UIFont.systemFontOfSize(13.0)
+        let font2 = UIFont(name: "HelveticaNeue-UltraLight", size: 14.0) ?? UIFont.systemFontOfSize(13.0)
         let regFont = [NSFontAttributeName:font2]
+       
+        let font3 = UIFont(name: "HelveticaNeue-CondensedBold", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let nameFont = [NSFontAttributeName:font3]
+        
+        let font4 = UIFont(name: "HelveticaNeue-UltraLight", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let desFont = [NSFontAttributeName:font4]
         
         // Create a string that will be our paragraph
         let para = NSMutableAttributedString()
         
         // Create locally formatted strings
+        let Designer = NSAttributedString(string: "DESIGNERS\n", attributes:nameFont)
+        let Name = NSAttributedString(string: "Jason Williams & Aver-jay Gonzales\n\n", attributes:desFont)
+        
         let Q1 = NSAttributedString(string: "What inspired you to create this collection?\n", attributes:boldFont)
         let A1 = NSAttributedString(string: "Our inspiration drew from hunger and desire. A hunger to become something more, without settling for less. A desire to have everyone break necks to take another glimpse at a detail that they couldn't process within the 15 seconds before and after we walk past them.\n\n", attributes:regFont)
         
@@ -312,6 +354,8 @@ class DesignersViewController: UIViewController {
         let A8 = NSAttributedString(string: "Design is a different language. You can bridge people of different cultures and barriers with anything design and entrepreneurialism. The ability to create something that's not out there, and sharing it with the universe. Humans and extraterrestrials alike.\n\n", attributes:regFont)
         
         // Add locally formatted strings to paragraph
+        para.appendAttributedString(Designer)
+        para.appendAttributedString(Name)
         para.appendAttributedString(Q1)
         para.appendAttributedString(A1)
         para.appendAttributedString(Q2)

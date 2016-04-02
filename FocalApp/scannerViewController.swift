@@ -245,6 +245,7 @@ class scannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
             image3 = "PCOutfit_3-3(FINAL2)"
             image4 = "PCOutfit_3-4(FINAL2)"
             video = "https://www.youtube.com/watch?v=Kzv0dMRbmIM&feature=youtu.be"
+            
         case "Queue1":
             print(code)
             outfitName = "Outfit 1"
@@ -378,8 +379,10 @@ class scannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
         let vc = segue.destinationViewController as! OutfitViewController
         vc.deets = para
         
-        
-        vc.image = [self.image1!, self.image2!, self.image3!, self.image4!]
+        if !self.image1!.isEmpty && !self.image2!.isEmpty && !self.image3!.isEmpty && !self.image4!.isEmpty{
+            
+            vc.image = [self.image1!, self.image2!, self.image3!, self.image4!]
+        }
 //set image of view controller as image of the collectionview item
 //        let outfitGif:UIImageView!
 //        outfitGif!.animationImages = ImagesArray

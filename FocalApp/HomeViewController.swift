@@ -99,7 +99,7 @@ class HomeViewController: UIViewController {
         // SET DUE DATE
         let showDate = NSDateComponents()
         showDate.year = 2016
-        showDate.month = 1
+        showDate.month = 4
         showDate.day = 7
         showDate.hour = 19
         showDate.minute = 00
