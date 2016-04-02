@@ -58,16 +58,16 @@ class DesignersViewController: UIViewController {
     
     func fillMWText(){
         // Define string attributes
-        let font1 = UIFont(name: "HelveticaNeue-CondensedBold", size: 16.0) ?? UIFont.systemFontOfSize(14.0)
+        let font1 = UIFont(name: "HelveticaNeue-CondensedBold", size: 16.0) ?? UIFont.systemFontOfSize(16.0)
         let boldFont = [NSFontAttributeName:font1]
         
-        let font2 = UIFont(name: "HelveticaNeue-UltraLight", size: 14.0) ?? UIFont.systemFontOfSize(13.0)
+        let font2 = UIFont(name: "HelveticaNeue-Thin", size: 16.0) ?? UIFont.systemFontOfSize(16.0)
         let regFont = [NSFontAttributeName:font2]
         
-        let font3 = UIFont(name: "HelveticaNeue-CondensedBold", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let font3 = UIFont(name: "HelveticaNeue-CondensedBold", size: 18.0) ?? UIFont.systemFontOfSize(18.0)
         let nameFont = [NSFontAttributeName:font3]
         
-        let font4 = UIFont(name: "HelveticaNeue-UltraLight", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let font4 = UIFont(name: "HelveticaNeue-UltraLight", size: 18.0) ?? UIFont.systemFontOfSize(18.0)
         let desFont = [NSFontAttributeName:font4]
         
         // Create a string that will be our paragraph
@@ -153,16 +153,16 @@ class DesignersViewController: UIViewController {
     
     func fillAMText(){
         // Define string attributes
-        let font1 = UIFont(name: "HelveticaNeue-UltraLight", size: 16.0) ?? UIFont.systemFontOfSize(14.0)
+        let font1 = UIFont(name: "HelveticaNeue-CondensedBold", size: 16.0) ?? UIFont.systemFontOfSize(16.0)
         let boldFont = [NSFontAttributeName:font1]
         
-        let font2 = UIFont(name: "HelveticaNeue-UltraLight", size: 14.0) ?? UIFont.systemFontOfSize(13.0)
+        let font2 = UIFont(name: "HelveticaNeue-Thin", size: 16.0) ?? UIFont.systemFontOfSize(16.0)
         let regFont = [NSFontAttributeName:font2]
         
-        let font3 = UIFont(name: "HelveticaNeue-CondensedBold", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let font3 = UIFont(name: "HelveticaNeue-CondensedBold", size: 18.0) ?? UIFont.systemFontOfSize(18.0)
         let nameFont = [NSFontAttributeName:font3]
         
-        let font4 = UIFont(name: "HelveticaNeue-UltraLight", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let font4 = UIFont(name: "HelveticaNeue-UltraLight", size: 18.0) ?? UIFont.systemFontOfSize(18.0)
         let desFont = [NSFontAttributeName:font4]
         
         // Create a string that will be our paragraph
@@ -221,16 +221,16 @@ class DesignersViewController: UIViewController {
     
     func fillPCText(){
         // Define string attributes
-        let font1 = UIFont(name: "HelveticaNeue-CondensedBold", size: 16.0) ?? UIFont.systemFontOfSize(14.0)
+        let font1 = UIFont(name: "HelveticaNeue-CondensedBold", size: 16.0) ?? UIFont.systemFontOfSize(16.0)
         let boldFont = [NSFontAttributeName:font1]
         
-        let font2 = UIFont(name: "HelveticaNeue-UltraLight", size: 14.0) ?? UIFont.systemFontOfSize(13.0)
+        let font2 = UIFont(name: "HelveticaNeue-Thin", size: 16.0) ?? UIFont.systemFontOfSize(16.0)
         let regFont = [NSFontAttributeName:font2]
         
-        let font3 = UIFont(name: "HelveticaNeue-CondensedBold", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let font3 = UIFont(name: "HelveticaNeue-CondensedBold", size: 18.0) ?? UIFont.systemFontOfSize(18.0)
         let nameFont = [NSFontAttributeName:font3]
         
-        let font4 = UIFont(name: "HelveticaNeue-UltraLight", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let font4 = UIFont(name: "HelveticaNeue-UltraLight", size: 18.0) ?? UIFont.systemFontOfSize(18.0)
         let desFont = [NSFontAttributeName:font4]
         
         // Create a string that will be our paragraph
@@ -310,16 +310,16 @@ class DesignersViewController: UIViewController {
     
     func fillQText(){
         // Define string attributes
-        let font1 = UIFont(name: "HelveticaNeue-CondensedBold", size: 16.0) ?? UIFont.systemFontOfSize(14.0)
+        let font1 = UIFont(name: "HelveticaNeue-CondensedBold", size: 16.0) ?? UIFont.systemFontOfSize(16.0)
         let boldFont = [NSFontAttributeName:font1]
         
-        let font2 = UIFont(name: "HelveticaNeue-UltraLight", size: 14.0) ?? UIFont.systemFontOfSize(13.0)
+        let font2 = UIFont(name: "HelveticaNeue-Thin", size: 16.0) ?? UIFont.systemFontOfSize(16.0)
         let regFont = [NSFontAttributeName:font2]
        
-        let font3 = UIFont(name: "HelveticaNeue-CondensedBold", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let font3 = UIFont(name: "HelveticaNeue-CondensedBold", size: 18.0) ?? UIFont.systemFontOfSize(18.0)
         let nameFont = [NSFontAttributeName:font3]
         
-        let font4 = UIFont(name: "HelveticaNeue-UltraLight", size: 18.0) ?? UIFont.systemFontOfSize(14.0)
+        let font4 = UIFont(name: "HelveticaNeue-UltraLight", size: 18.0) ?? UIFont.systemFontOfSize(18.0)
         let desFont = [NSFontAttributeName:font4]
         
         // Create a string that will be our paragraph

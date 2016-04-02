@@ -315,11 +315,12 @@ class scannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
 
         
         // Define string attributes
-        let font1 = UIFont(name: "AvenirNext-Bold", size: 20.0) ?? UIFont.systemFontOfSize(19.0)
+        let font1 = UIFont(name: "HelveticaNeue-CondensedBold", size: 20.0) ?? UIFont.systemFontOfSize(19.0)
         let boldFont = [NSFontAttributeName:font1]
         
-        let font2 = UIFont(name: "AvenirNext-Regular", size: 16.0) ?? UIFont.systemFontOfSize(17.0)
+        let font2 = UIFont(name: "HelveticaNeue-Thin", size: 17.0) ?? UIFont.systemFontOfSize(17.0)
         let regFont = [NSFontAttributeName:font2]
+        
         
         // Create a string that will be our paragraph
         let para = NSMutableAttributedString()
